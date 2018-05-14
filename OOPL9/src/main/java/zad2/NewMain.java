@@ -22,7 +22,7 @@ public class NewMain {
     public static void main(String[] args) {
        Random losujLiczby = new Random();
         
-        int tab[]= new int[100];
+        int tab[]= new int[10];
         
         for (int i = 1; i < tab.length; i++) {
             tab[i] = losujLiczby.nextInt(101);
